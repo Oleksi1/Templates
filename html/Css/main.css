@@ -16,6 +16,7 @@
   padding: 20px;
 	opacity: .7;
 }
+
 .top-menu:after {
   content: "";
   display: table;
@@ -33,7 +34,9 @@
   float: right;
 
 }
-.menu-main li {display: inline-block;}
+.menu-main li {display: inline-block;
+
+}
 .menu-main a {
   text-decoration: none;
   display: block;
@@ -44,7 +47,7 @@
   letter-spacing: 2px;
   font-family: 'Pangolin', cursive;
   font-weight: bold;
-  color: #557489;
+  color: #020812;
   transition:.3s linear;
 	opacity: .7;
 }
@@ -76,6 +79,28 @@
 }
 @media (max-width: 600px) {
 .menu-main li {display: block;}
+}
+
+/*------------------------------------Submenu-------------------------------------------------*/
+
+.menu-main li ul{
+	position:absolute;
+	min-width: 150px;
+	display: none;
+	opacity: .8;
+	background-color: #926167;
+}
+
+
+
+}
+.menu-main li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background-color: #926167;
+}
+.menu-main li:hover > ul {
+	display: block;
 }
 /*------------------------------------Кінець меню-------------------------------------------------*/
 
