@@ -85,10 +85,12 @@
 
 .menu-main li ul{
 	position:absolute;
+	z-index: 2;
 	min-width: 150px;
 	display: none;
 	opacity: .8;
 	background-color: #926167;
+	transition: all 0.5s ease;
 }
 
 
@@ -152,7 +154,21 @@ body {
   .one h1 {font-size: 2em;}
 }
 /*------------------------------------Кінець заголовку-------------------------------------------------*/
-
+.main_block {
+ background:#926167 ;
+ font-family: 'Pangolin', cursive;
+ border-radius: 10px;
+ padding: 20px;
+ position: relative;
+ color: #fafafa;
+opacity: 0.6;
+}
+.image {
+opacity: 0;
+}
+.image:hover{
+opacity: 1;
+}
 /*------------------------------------Блочна розмітка сторінки-------------------------------------------------*/
 .col-1-2 {
   width: 33.3333333333%;
