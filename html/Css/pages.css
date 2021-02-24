@@ -22,7 +22,7 @@
 .navbar-logo {display: inline-block;}
 .menu-main_castle {
   list-style: none;
-  margin: 0;
+  margin-right: 60px;
   padding: 0;
   float: right;
 }
@@ -110,7 +110,7 @@
 .navbar-logo {display: inline-block;}
 .menu-main_temple {
   list-style: none;
-  margin: 0;
+  margin-right: 60px;
   padding: 0;
   float: right;
 }
@@ -171,9 +171,6 @@
 	background-color: #E7E0B8;
 	transition: all 0.5s ease;
 }
-
-
-
 }
 .menu-main_temple li > ul li a{
 	padding: 10px;
@@ -184,8 +181,6 @@
 	display: block;
 }
 /* ------------------------------------ Кінець меню-----------------------------------------*/
-
-
 /* ------------------------------------ Тіло-----------------------------------------*/
 body {
 background-color:#F6F6F6;
@@ -201,8 +196,6 @@ background-color:#F6F6F6;
 	background-attachment: fixed;
 }
 /* ------------------------------------ Тіло-----------------------------------------*/
-
-
 /* ------------------------------------ Блок-----------------------------------------*/
    .block {
     background:#83A2DB ;
@@ -237,28 +230,7 @@ background-color:#F6F6F6;
 
    /* ------------------------------------ Блок-----------------------------------------*/
 
-   /* ------------------------------------ Футер-----------------------------------------*/
-	 footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #186EA9;
-    color: white;
-	}
-
-	.foo_temp {
-	 display: flex;
-	 justify-content: center;
-	 padding: 5px;
-	 background-color:#E7E0B8;
-	 color: black;
-	 
-
- }
-
-/* ------------------------------------ Футер-----------------------------------------*/
-
-/* ------------------------------------ Заголовок-----------------------------------------*/
+   /* ------------------------------------ Заголовок-----------------------------------------*/
 .three {
   background: #83A2DB;
   padding: 50px 20px;
@@ -415,6 +387,7 @@ background-color:#F6F6F6;
   right: 0;
   bottom: 0;
   background: #fff;
+  opacity: 0;
   cursor: zoom-out;
 }
    /*------------------------------------Кінець галереї-------------------------------------------------*/
